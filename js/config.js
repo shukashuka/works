@@ -8,7 +8,7 @@
 window.GITHUB_CONFIG = {
   user: "shukashuka",
   repo: "works",
-  branch: "main",
+  branch: "main"
 };
 
 // Skills shown as an animated infographic in the hero section (level 1-10)
