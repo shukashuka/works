@@ -1,0 +1,23 @@
+/* ============================================================
+   MOBILE / TABLET — fullpage scroll is DISABLED here,
+   the page falls back to normal scrolling.
+============================================================= */
+@media (max-width: 900px){
+  html,body{overflow-y:auto;}
+  #fullpage-container{height:auto;transform:none !important;}
+  .panel{height:auto;min-height:100vh;padding:64px 6vw;}
+
+  .hero-grid{grid-template-columns:1fr;gap:36px;}
+  .hero-visual-slot{height:260px;}
+
+  .projects-grid{grid-template-columns:1fr 1fr;gap:20px;}
+  .profile-grid{grid-template-columns:1fr;}
+
+  .overlay-grid{columns:2 200px;}
+  .scroll-hint{display:none;}
+  .dot-nav{right:14px;gap:12px;}
+}
+
+@media (max-width: 520px){
+  .projects-grid{grid-template-columns:1fr;}
+}

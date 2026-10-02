@@ -1,0 +1,26 @@
+/* ============================================================
+   THEME TOKENS — change colors/fonts for the whole site here.
+   See README.md > "Change the color theme" for guidance.
+============================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  /* Colors */
+  --color-paper:#fbf9f4;
+  --color-ink:#20221f;
+  --color-muted:#6b6a62;
+  --color-gold:#c8983f;
+  --color-teal:#2f7a6d;
+  --color-coral:#e2703b;
+  --color-line:#e6e1d3;
+  --color-card:#ffffff;
+
+  /* Typography */
+  --font-display:'Fraunces', serif;
+  --font-body:'Inter', -apple-system, 'Segoe UI', sans-serif;
+
+  /* Safe-area padding for notches/system bars */
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}

@@ -1,0 +1,14 @@
+.overlay,.lightbox{position:fixed;inset:0;background:rgba(20,20,18,.94);
+  z-index:50;display:none;padding:48px 6vw;overflow-y:auto;}
+.overlay.open,.lightbox.open{display:block;}
+
+.overlay-close{position:fixed;top:20px;right:24px;width:42px;height:42px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;font-size:22px;cursor:pointer;}
+
+#overlay-title{color:var(--color-paper);margin-bottom:24px;}
+.overlay-grid{columns:3 260px;column-gap:16px;}
+.overlay-grid img{width:100%;margin-bottom:16px;border-radius:8px;cursor:zoom-in;}
+
+.lightbox{display:none;align-items:center;justify-content:center;}
+.lightbox.open{display:flex;}
+.lightbox img{max-width:90vw;max-height:86vh;border-radius:6px;}
