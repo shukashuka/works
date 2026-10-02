@@ -6,7 +6,7 @@
 // Your GitHub username & repo name (used to auto-load the /projects folder)
 // NOTE: uses "window." (not "const") so other files can reliably detect it.
 window.GITHUB_CONFIG = {
-  user: shukashuka
+  user: "shukashuka",
   repo: "works",
   branch: "main"
 };
