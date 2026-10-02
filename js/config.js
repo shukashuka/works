@@ -6,7 +6,7 @@
 // Your GitHub username & repo name (used to auto-load the /projects folder)
 const GITHUB_CONFIG = {
   user: "shukashuka",
-  repo: "shukashuka.github.io",
+  repo: "works",
   branch: "main"
 };
 
