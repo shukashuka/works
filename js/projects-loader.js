@@ -38,7 +38,9 @@ App.loadProjects = async function(){
 
     grid.innerHTML = '';
     for(const folder of folders){
-      const filesRes = await fetch(`${folder.url}?ref=${branch}`);
+      // NOTE: folder.url from the GitHub API already includes "?ref=...",
+      // so it's used as-is here (appending another ?ref= breaks the request).
+      const filesRes = await fetch(folder.url);
       const files = await filesRes.json();
       const images = (Array.isArray(files) ? files : [])
         .filter(f => IMAGE_EXTENSION.test(f.name))
